@@ -5,6 +5,7 @@
   "dependencies": {
     "extract-text-webpack-plugin": "^3.0.2",
     "font-awesome": "^4.7.0",
+    "random-name": "^0.1.2",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-scripts": "2.1.8",
@@ -28,10 +29,9 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "@fortawesome/fontawesome-free": "^5.7.2",
-    "@storybook/addon-actions": "^5.0.1",
+    "@storybook/addon-actions": "^5.0.6",
     "@storybook/addon-links": "^5.0.1",
-    "@storybook/react": "^5.0.1",
+    "@storybook/react": "^5.0.6",
     "babel-core": "^6.26.3",
     "babel-loader": "^8.0.5",
     "babel-preset-env": "^1.7.0",

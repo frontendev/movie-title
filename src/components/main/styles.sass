@@ -1,0 +1,40 @@
+@import '../../styles/variables'
+
+.main
+	width: 100%
+	height: 100vh
+	background-color: black
+	display: flex
+	justify-content: center
+	align-items: center
+	font-family: 'Montserrat', sans-serif
+
+.title-block
+	opacity: 0
+	.name,
+	.role
+		color: white
+		text-align: center
+	.role
+		font-size: 15px
+		line-height: 1
+		margin: 0 0 5px
+	.name
+		font-size: 40px
+		line-height: 1
+		margin: 0 0 10px
+		letter-spacing: 2px
+
+	&.animate
+		animation-name: fade-in-fade-out
+		animation-delay: initial
+		animation-timing-function: ease-in
+		position: absolute
+
+@keyframes fade-in-fade-out
+    0%, 10%, 100%
+        opacity: 0
+    
+    30%, 90%
+        opacity: 1
+    
